@@ -12,10 +12,8 @@ export default class TopNavBar extends React.Component {
                     <Nav className="mr-auto">
                         <Nav.Link href="/about">About</Nav.Link>
                         <Nav.Link href="/resume">Resume</Nav.Link>
-                        <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="/skyprecision">Capstone: Skyprecision</NavDropdown.Item>
-                            <NavDropdown.Item href="/irl_skilltrees">Irl Skill Trees</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
+                        <Nav.Link href="/research">Research</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://github.com/mitchellss">
