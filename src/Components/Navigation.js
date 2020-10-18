@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import github from '../githublogo.png';
 
 export default class TopNavBar extends React.Component {
     render() {
