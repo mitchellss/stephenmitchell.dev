@@ -8,14 +8,13 @@ export default class Home extends React.Component {
     render() {
         return (
             <div>
-
                 <div className="mobileimagecontainer">
                     <img
-                        className="d-block w-100 mobilebanner"
+                        className="d-block w-100 mobilebanner unselectable"
                         src={img2}
                         alt="First slide"
                     />
-                    <h1 className="mobileimagetext unselectable">Hi, I'm Stephen.<br />Welcome to my <br/>website!</h1>
+                    <h1 className="mobileimagetext">Hi, I'm Stephen.<br />Welcome to my <br/>website!</h1>
                 </div>
 
                 <div className="desktopimagecontainer">
@@ -24,7 +23,7 @@ export default class Home extends React.Component {
                         src={img1}
                         alt="First slide"
                     />
-                    <h1 className="desktopimagetext unselectable">Hi, I'm Stephen.<br />Welcome to my website!</h1>
+                    <h1 className="desktopimagetext">Hi, I'm Stephen.<br />Welcome to my website!</h1>
                 </div>
 
                 <div className="cardcontainer">
