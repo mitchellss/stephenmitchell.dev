@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, NavItem } from 'react-bootstrap';
+import { LinkContainer, NavLink } from 'react-router-bootstrap';
 
 export default class TopNavBar extends React.Component {
     render() {
@@ -9,17 +10,25 @@ export default class TopNavBar extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/about">About</Nav.Link>
-                        <Nav.Link href="/resume">Resume</Nav.Link>
-                        <Nav.Link href="/projects">Projects</Nav.Link>
-                        <Nav.Link href="/research">Research</Nav.Link>
+                        <LinkContainer to="/about">
+                            <Nav.Link>About</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/resume">
+                            <Nav.Link>Resume</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/projects">
+                            <Nav.Link>Projects</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/research">
+                            <Nav.Link>Research</Nav.Link>
+                        </LinkContainer>
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://github.com/mitchellss">
                             Github
                         </Nav.Link>
                         <Nav.Link href="https://www.linkedin.com/in/stephen-mitchell-287608170/">
-                            LinkedIn 
+                            LinkedIn
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
