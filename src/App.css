@@ -23,6 +23,11 @@
   src: url(./Catamaran-Thin.ttf)
 }
 
+@font-face {
+  font-family: FreeSansBold;
+  src: url(./FreeSansBold-Xgdd.ttf)
+}
+
 .mobileimagetext{
   color: white;
   position: absolute;
@@ -57,6 +62,11 @@
    .desktopimagetext {
      visibility: visible;
    }
+   .girlfriendpic {
+     width: 33%;
+     float: left;
+     padding: 0px 2vw 0px 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,6 +85,11 @@
    .desktopimagetext {
      visibility: hidden;
    }
+   .girlfriendpic {
+      width: 100%;
+      float: left;
+      padding: 10px 10px;
+}
 }
 
 .mobileimagecontainer {
@@ -117,7 +132,7 @@
 }
 
 .aboutmebanner {
-  margin: 0 0 5px 0;
+  margin: 10px 0 10px 0;
   height: 23vw;
   overflow: hidden;
 }
@@ -126,7 +141,7 @@
   height: 23vw;
   width: 25%;
   float: left;
-  background-color: #282c34;
+  background-color: #202020;
 }
 
 .aboutmebannerpic {
@@ -135,6 +150,7 @@
 }
 
 .center {
+  font-family: FreeSansBold;
   color: white;
   font-size: 4vw;
   position: relative;
@@ -142,24 +158,25 @@
   transform: translate(0, -50%);
 }
 
+.test {
+  position: relative;
+  top: 50%;
+}
+
 .underbannertext {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
-  background-color: #282c34;
+  background-color: #202020;
   height: 100%;
-  margin: 5px 0 5px 0;
+  margin: 10px 0 10px 0;
   padding: 10px 20px 10px 20px;
   text-align: left;
 }
 
 .lowerbanner {
-  background-color: #282c34;
+  background-color: #202020;
 }
 
-.girlfriendpic {
-  width: 33%;
-  float: left;
-  padding: 0px 20px 20px 0px;
-}
 
 .sidegirlfrienddiv {
   width: 100%;
@@ -178,17 +195,22 @@
 }
 
 .lowertext {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
-  background-color: #282c34;
+  background-color: #202020;
   text-align: left;
+  min-height: 24vw;
   padding: 10px 20px 10px 20px;
   color: white;
+  margin: 5px 0 5px 0;
 }
 
 .quote {
-  padding: 0px 0px 40px 0px;
-  margin: auto;
-  background-color: #282c34;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px 40px;
+  margin: 0px auto;
+  background-color: #202020;
+  text-align: left;
   color: white;
   float: left;
 }

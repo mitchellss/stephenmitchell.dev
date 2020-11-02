@@ -8,6 +8,7 @@ import './index.css';
 import './App.css';
 
 function App() {
+  document.body.style = 'background: #282c34;';
   return (
     <div className="App">
       <Router>
