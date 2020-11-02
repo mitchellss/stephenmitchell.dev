@@ -67,6 +67,24 @@
      float: left;
      padding: 0px 2vw 0px 0px;
   }
+
+  .aboutmetext {
+    height: 23vw;
+    width: 25%;
+    float: left;
+    background-color: #202020;
+  }
+  
+  .aboutmebannerpic {
+    float: left;
+    width: 75%;
+  }
+
+.aboutmebanner {
+  margin: 10px 0 10px 0;
+  height: 23vw;
+  overflow: hidden;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,6 +107,27 @@
       width: 100%;
       float: left;
       padding: 10px 10px;
+    }
+
+  .aboutmetext {
+    height: 10vw;
+    width: 100%;
+    float: left;
+    background-color: #202020;
+  }
+  
+  .aboutmebannerpic {
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: #202020;
+  }
+
+.aboutmebanner {
+  margin: 10px 0 10px 0;
+  height: 46vw;
+  overflow: hidden;
 }
 }
 
@@ -131,23 +170,6 @@
     user-select: none;
 }
 
-.aboutmebanner {
-  margin: 10px 0 10px 0;
-  height: 23vw;
-  overflow: hidden;
-}
-
-.aboutmetext {
-  height: 23vw;
-  width: 25%;
-  float: left;
-  background-color: #202020;
-}
-
-.aboutmebannerpic {
-  float: left;
-  width: 75%;
-}
 
 .center {
   font-family: FreeSansBold;

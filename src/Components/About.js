@@ -9,7 +9,7 @@ export default class About extends React.Component {
             <div>
                 <div className="aboutmebanner">
                     <div className="aboutmetext">
-                        <h1 className="center">About<br />Me</h1>
+                        <h1 className="center">About Me</h1>
                     </div>
                     <Image src={img1} fluid className="aboutmebannerpic" />
                 </div>
