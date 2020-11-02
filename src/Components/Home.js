@@ -28,7 +28,7 @@ export default class Home extends React.Component {
                 </div>
 
                 <div className="cardcontainer">
-                    <Card >
+                    <Card bg="dark" >
                         <Card.Img variant="top" src="" />
                         <Card.Body>
                             <Card.Title>About Me</Card.Title>
@@ -39,7 +39,7 @@ export default class Home extends React.Component {
                         </Card.Body>
                     </Card>
 
-                    <Card >
+                    <Card bg="dark" >
                         <Card.Img variant="top" src="" />
                         <Card.Body>
                             <Card.Title>My Skills</Card.Title>
@@ -50,7 +50,7 @@ export default class Home extends React.Component {
                         </Card.Body>
                     </Card>
 
-                    <Card >
+                    <Card bg="dark" >
                         <Card.Img variant="top" src="" />
                         <Card.Body>
                             <Card.Title>My Projects</Card.Title>
