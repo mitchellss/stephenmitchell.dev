@@ -165,6 +165,10 @@
   bottom: -10px;
 }
 
+.card3 > .card {
+  bottom: 0px;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
