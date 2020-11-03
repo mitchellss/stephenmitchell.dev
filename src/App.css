@@ -161,6 +161,10 @@
   margin: 10px 3%;
 }
 
+.card2 > .card {
+  bottom: -10px;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
