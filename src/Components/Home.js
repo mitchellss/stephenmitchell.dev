@@ -28,7 +28,7 @@ export default class Home extends React.Component {
                 </div>
 
                 <div className="cardcontainer">
-                    <Card >
+                    <Card bg="dark" >
                         <Card.Img variant="top" src="" />
                         <Card.Body>
                             <Card.Title>About Me</Card.Title>
@@ -39,23 +39,23 @@ export default class Home extends React.Component {
                         </Card.Body>
                     </Card>
 
-                    <Card >
-                        <Card.Img variant="top" src="" />
-                        <Card.Body>
-                            <Card.Title>My Skills</Card.Title>
-                            <Card.Text>See what I have picked up on over the years.</Card.Text>
-                            <Link to="/skills">
-                                <Button variant="primary">Go Here</Button>
-                            </Link>
-                        </Card.Body>
-                    </Card>
-
-                    <Card >
+                    <Card bg="dark" >
                         <Card.Img variant="top" src="" />
                         <Card.Body>
                             <Card.Title>My Projects</Card.Title>
                             <Card.Text>Take a look at the projects I am working on!</Card.Text>
                             <Link to="/projects">
+                                <Button variant="primary">Go Here</Button>
+                            </Link>
+                        </Card.Body>
+                    </Card>
+
+                    <Card bg="dark" >
+                        <Card.Img variant="top" src="" />
+                        <Card.Body>
+                            <Card.Title>Contact Me</Card.Title>
+                            <Card.Text>Send me an email or give me a call!</Card.Text>
+                            <Link to="/contact">
                                 <Button variant="primary">Go Here</Button>
                             </Link>
                         </Card.Body>
