@@ -20,7 +20,7 @@ export default class About extends React.Component {
                     <Image src={img2} fluid className="girlfriendpic" />
                     <div className="textandquote">
                         <div className="lowertext">
-                            <p className="test">In the summers I like to spend my time swimming, surfing, and paddleboarding on the beaches in Maine with my two brothers and my dog. I love staying active and busy and I am never afraid to take on a new challenge. <br /><br />I am a lifelong learner with a passion for DevOps engineering that I hope to bring to the company I end up working for. Feel free to take a look at the projects I am working on and my previous experience and let me know if you would be interested in having me work for you.</p>
+                            <p className="test">During the summer I like to spend my time swimming, surfing, and paddleboarding on the beaches in Maine with my two brothers and my dog. I love staying active and busy and I am never afraid to take on a new challenge. <br /><br />I am a lifelong learner with a passion for DevOps engineering that I hope to bring to the company I end up working for. Feel free to take a look at the projects I am working on and my previous experience and let me know if you would be interested in having me work for you.</p>
                         </div>
                         <h2 className="quote">“I shall pass this way but once; any good, therefore, that I can do or any kindness that I can show to any human being, let me do 		it now. Let me not defer nor neglect it, for I shall not pass this 		way again.”<br />- Etienne de Grellet</h2>
                     </div>
