@@ -250,6 +250,36 @@
   font-size: large;
 }
 
+.breadcrumb1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .75rem 1rem;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: #202020;
+  border-radius: .25rem;
+}
+
+.blackbackground {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  padding: 10px;
+  font-family: FreeSansBold;
+  font-size: 3vw;
+}
+
+.desktopimagetext2 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0, -50%);
+  color: white;
+}
+
+.test {
+  position: relative;
+}
+
 img {
     pointer-events: none;
 }
