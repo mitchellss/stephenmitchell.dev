@@ -280,6 +280,10 @@
   position: relative;
 }
 
+.test2 {
+  width: 100vw;
+}
+
 img {
     pointer-events: none;
 }

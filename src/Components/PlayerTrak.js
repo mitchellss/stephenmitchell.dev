@@ -1,7 +1,7 @@
 import React from 'react';
 import { Breadcrumb, Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import img1 from '../vineyard2.jpg';
+import img1 from '../bannerdjr.png';
 
 export default class PlayerTrak extends React.Component {
     render() {
@@ -16,7 +16,7 @@ export default class PlayerTrak extends React.Component {
                     </Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="test">
-                    <Image src={img1} fluid />
+                    <Image src={img1} className="test2"/>
                     <h1 className="desktopimagetext2 blackbackground">PlayerTrak</h1>
                 </div>
             </div>
