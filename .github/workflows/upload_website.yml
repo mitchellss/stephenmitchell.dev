@@ -11,9 +11,14 @@ jobs:
     steps:
     - name: Checkout branch
       uses: actions/checkout@master
-    - name: Display the path
-      run: npm run build 
-      shell: bash
+    - name: Sets up npm environment
+      uses: actions/setup-node@v1 
+      with:
+        node-version: '12'
+    - name: Install dependancies
+      run: npm install
+    - name: Create build
+      run: npm run build
     - name: Sync to AWS
       uses: jakejarvis/s3-sync-action@master
       with:
