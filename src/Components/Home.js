@@ -42,9 +42,9 @@ export default class Home extends React.Component {
                     <Card bg="dark" >
                         <Card.Img variant="top" src="" />
                         <Card.Body>
-                            <Card.Title>My Skills</Card.Title>
-                            <Card.Text>See what I have picked up on over the years.</Card.Text>
-                            <Link to="/skills">
+                            <Card.Title>My Projects</Card.Title>
+                            <Card.Text>Take a look at the projects I am working on!</Card.Text>
+                            <Link to="/projects">
                                 <Button variant="primary">Go Here</Button>
                             </Link>
                         </Card.Body>
@@ -53,9 +53,9 @@ export default class Home extends React.Component {
                     <Card bg="dark" >
                         <Card.Img variant="top" src="" />
                         <Card.Body>
-                            <Card.Title>My Projects</Card.Title>
-                            <Card.Text>Take a look at the projects I am working on!</Card.Text>
-                            <Link to="/projects">
+                            <Card.Title>Contact Me</Card.Title>
+                            <Card.Text>Send me an email or give me a call!</Card.Text>
+                            <Link to="/contact">
                                 <Button variant="primary">Go Here</Button>
                             </Link>
                         </Card.Body>

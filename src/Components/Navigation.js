@@ -22,6 +22,9 @@ export default class TopNavBar extends React.Component {
                         <LinkContainer to="/research">
                             <Nav.Link>Research</Nav.Link>
                         </LinkContainer>
+                        <LinkContainer to="/contact">
+                            <Nav.Link>Contact</Nav.Link>
+                        </LinkContainer>
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://github.com/mitchellss">

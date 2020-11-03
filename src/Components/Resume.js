@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import img1 from '../resume_pic.jpg';
 import resume from '../Stephen_Mitchell_Resume_10_2020.pdf';
 

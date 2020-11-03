@@ -5,7 +5,7 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Projects from './Components/Projects';
 import Research from './Components/Research';
-import Skills from './Components/Skills';
+import Contact from './Components/Contact';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +24,7 @@ function App() {
           <Route path="/resume" exact component={Resume} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/research" exact component={Research} />
-          <Route path="/skills" exact component={Skills} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
       </Router>
     </div>
