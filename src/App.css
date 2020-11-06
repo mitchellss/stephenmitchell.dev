@@ -169,6 +169,11 @@
   top: 10vh;
 }
 
+.card4 > .card {
+  position: relative;
+  bottom: 15vw;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -258,6 +263,14 @@
   list-style: none;
   background-color: #202020;
   border-radius: .25rem;
+}
+
+.list-group-item1 {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  background-color: #464646;
+  border: 1px solid rgba(0,0,0,.125);
 }
 
 .blackbackground {
