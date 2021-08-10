@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 import vineyard_pic from '../vineyard.jpg';
 import research_pic from '../research.jpg';
 import card_code from '../card_code.png';
+import coming_soon from '../coming_soon.png';
 
 export default class Projects extends React.Component {
     render() {
         return (
             <div className="cardcontainer card3">
-                <Card bg="dark" >
+                <Card bg="dark" className="card5">
                     <Card.Img variant="top" src={vineyard_pic} />
                     <Card.Body>
                         <Card.Title>SkyPrecision: Aerial Multispectral Imaging for Precision Agriculture</Card.Title>
@@ -42,6 +43,17 @@ export default class Projects extends React.Component {
                         <Link to="/projects/stephenmitchellus">
                             <Button variant="primary">Go Here</Button>
                         </Link>
+                    </Card.Body>
+                </Card>
+
+                <Card bg="dark" >
+                    <Card.Img variant="top" src={coming_soon} />
+                    <Card.Body>
+                        <Card.Title>Recipe Rest</Card.Title>
+                        <Card.Text>
+                            Solving the problem of inconsistent online recipe formatting 
+                        </Card.Text>
+                        <Button variant="primary" disabled>Go Here</Button>
                     </Card.Body>
                 </Card>
 
