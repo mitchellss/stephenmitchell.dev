@@ -27,7 +27,7 @@ export default class TopNavBar extends React.Component {
                         <Nav.Link href="https://github.com/mitchellss">
                             Github
                         </Nav.Link>
-                        <Nav.Link href="https://www.linkedin.com/in/stephen-mitchell-287608170/">
+                        <Nav.Link href="https://www.linkedin.com/in/mitchellss">
                             LinkedIn
                         </Nav.Link>
                     </Nav>

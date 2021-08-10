@@ -65,11 +65,11 @@
    .girlfriendpic {
      width: 33%;
      float: left;
-     padding: 0px 2vw 0px 0px;
+     padding: 10px 2vw 0px 2vw;
   }
 
   .aboutmetext {
-    height: 23vw;
+    height: 20.5vw;
     width: 25%;
     float: left;
     background-color: #202020;
@@ -81,8 +81,7 @@
   }
 
 .aboutmebanner {
-  margin: 10px 0 10px 0;
-  height: 23vw;
+  margin: 10px 8vw 10px 8vw;
   overflow: hidden;
 }
 }
@@ -104,8 +103,8 @@
      visibility: hidden;
    }
    .girlfriendpic {
-      width: 100%;
-      float: left;
+      width: 80%;
+      float: center;
       padding: 10px 10px;
     }
 
@@ -125,8 +124,7 @@
   }
 
 .aboutmebanner {
-  margin: 10px 0 10px 0;
-  height: 46vw;
+  margin: 10px 8vw 0px 8vw;
   overflow: hidden;
 }
 }
@@ -167,11 +165,20 @@
 
 .card3 > .card {
   top: 10vh;
+  width: 17%
 }
 
 .card4 > .card {
   position: relative;
   bottom: 15vw;
+}
+
+.card5 > .card {
+  bottom: 0px;
+}
+
+.buttonspace {
+  margin: 0px 10px;
 }
 
 .unselectable {
@@ -203,13 +210,24 @@
   color: white;
   background-color: #202020;
   height: 100%;
-  margin: 10px 0 10px 0;
+  margin: 0px 8vw 10px 8vw;
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+}
+
+.underbannertext2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  background-color: #202020;
+  height: 100%;
+  margin: 10px 8vw 10px 8vw;
   padding: 10px 20px 10px 20px;
   text-align: left;
 }
 
 .lowerbanner {
   background-color: #202020;
+  margin: 10px 8vw 10px 8vw;
 }
 
 
@@ -237,13 +255,12 @@
   min-height: 24vw;
   padding: 10px 20px 10px 20px;
   color: white;
-  margin: 5px 0 5px 0;
 }
 
 .quote {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 20px 40px;
-  margin: 0px auto;
+  margin: 10px 0px 0px 0px;
   background-color: #202020;
   text-align: left;
   color: white;
