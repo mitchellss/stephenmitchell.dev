@@ -14,7 +14,7 @@ export default class About extends React.Component {
                     <Image src={img1} fluid className="aboutmebannerpic" />
                 </div>
                 <div className="underbannertext">
-                    <p className="infotext">Hello and welcome to my website! My name is Stephen Mitchell and I am a Junior at James Madison University majoring in Computer Science and Engineering. I am also an avid hiker and archer in my free time (the above picture is the JMU men’s bowhunter squad from the 2020 USA Archery Indoor Nationals and the below picture is my girlfriend and me hiking a trail at Rocky Gap in Maryland).</p>
+                    <p className="infotext">Hello and welcome to my website! My name is Stephen Mitchell and I am a Senior at James Madison University majoring in Engineering and minoring in Computer Science. I am also an avid hiker and archer in my free time (the above picture is the JMU men’s bowhunter squad from the 2020 USA Archery Indoor Nationals and the below picture is my girlfriend and me hiking a trail at Rocky Gap in Maryland).</p>
                 </div>
                 <div className="lowerbanner">
                     <Image src={img2} fluid className="girlfriendpic" />
