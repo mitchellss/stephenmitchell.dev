@@ -12,12 +12,12 @@ export default class PersonalWebsite extends React.Component {
                         <Breadcrumb.Item>Projects</Breadcrumb.Item>
                     </LinkContainer>
                     <Breadcrumb.Item active>
-                        StephenMitchell.us
+                        StephenMitchell.dev
                     </Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="test">
                     <Image src={img1} className="test2"/>
-                    <h1 className="desktopimagetext2 blackbackground">StephenMitchell.us</h1>
+                    <h1 className="desktopimagetext2 blackbackground">StephenMitchell.dev</h1>
                 </div>
 
                 <div className="underbannertext2">
@@ -36,7 +36,7 @@ export default class PersonalWebsite extends React.Component {
                 <Card bg="dark" >
                     <Card.Body>
                         <Card.Title>Find This Project on GitHub</Card.Title>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitchellss/stephenmitchell.us">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitchellss/stephenmitchell.dev">
                             <Button variant="primary" className="buttonspace">Go to GitHub</Button>
                         </a>
                     </Card.Body>
