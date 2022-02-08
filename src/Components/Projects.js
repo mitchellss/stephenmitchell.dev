@@ -13,8 +13,8 @@ export default class Projects extends React.Component {
                 <Card bg="dark" className="card5">
                     <Card.Img variant="top" src={vineyard_pic} />
                     <Card.Body>
-                        <Card.Title>SkyPrecision: Aerial Multispectral Imaging for Precision Agriculture</Card.Title>
-                        <Card.Text>Building the frontend, backend, and infrastructure of a web-app for crop visualization.</Card.Text>
+                        <Card.Title>Capstone: Embedded Systems for Precision Agriculture</Card.Title>
+                        <Card.Text>Building the frontend, backend, and infrastructure of a web-app for vineyard frost prediction.</Card.Text>
                         <Link to="/projects/skyprecision">
                             <Button variant="primary">Go Here</Button>
                         </Link>
@@ -35,12 +35,12 @@ export default class Projects extends React.Component {
                 <Card bg="dark" >
                     <Card.Img variant="top" src={card_code} />
                     <Card.Body>
-                        <Card.Title>StephenMitchell.us</Card.Title>
+                        <Card.Title>StephenMitchell.dev</Card.Title>
                         <Card.Text>
                             The process I went through and tools 
                             I used to build this website.
                         </Card.Text>
-                        <Link to="/projects/stephenmitchellus">
+                        <Link to="/projects/stephenmitchelldev">
                             <Button variant="primary">Go Here</Button>
                         </Link>
                     </Card.Body>
@@ -51,7 +51,7 @@ export default class Projects extends React.Component {
                     <Card.Body>
                         <Card.Title>Recipe Rest</Card.Title>
                         <Card.Text>
-                            Solving the problem of inconsistent online recipe formatting 
+                            Self-hosted solution to the problem of inconsistent online recipe formatting 
                         </Card.Text>
                         <Button variant="primary" disabled>Go Here</Button>
                     </Card.Body>

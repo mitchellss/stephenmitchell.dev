@@ -28,7 +28,7 @@ function App() {
           <Route path="/contact" exact component={Contact} />
           <Route path="/projects/skyprecision" exact component={SkyPrecision} />
           <Route path="/projects/playertrak" exact component={PlayerTrak} />
-          <Route path="/projects/stephenmitchellus" exact component={PersonalWebsite} />
+          <Route path="/projects/stephenmitchelldev" exact component={PersonalWebsite} />
         </Switch>
       </Router>
     </div>
