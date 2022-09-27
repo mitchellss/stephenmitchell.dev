@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import img1 from '../resume_pic.jpg';
-import resume from '../2021.07.17.Stephen.Mitchell.Resume.pdf';
+import resume from '../Stephen.Mitchell.Resume.pdf';
 
 export default class Resume extends React.Component {
     render() {
