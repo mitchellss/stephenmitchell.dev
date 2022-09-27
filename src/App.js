@@ -26,7 +26,7 @@ function App() {
           <Route path="/resume" exact component={Resume} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/contact" exact component={Contact} />
-          <Route path="/projects/skyprecision" exact component={SkyPrecision} />
+          <Route path="/projects/espa" exact component={SkyPrecision} />
           <Route path="/projects/playertrak" exact component={PlayerTrak} />
           <Route path="/projects/stephenmitchelldev" exact component={PersonalWebsite} />
         </Switch>
