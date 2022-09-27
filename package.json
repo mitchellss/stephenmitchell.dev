@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^7.2.1",
+    "autoprefixer": "10.4.5",
     "aws": "^0.0.3-2",
     "bootstrap": "^4.5.3",
     "react": "^16.14.0",
